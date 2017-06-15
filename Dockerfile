@@ -35,7 +35,5 @@ RUN make build
 
 COPY config.json /tmp/config.json
 
-CMD /usr/local/go/src/github.com/thoas/picfit/bin/picfit -c /tmp/config.json
-# RUN /usr/local/go/src/github.com/thoas/picfit
-
-# CMD ["nginx", "-g", "daemon off;"]
+# Start picfit with the configuration file in config directory
+CMD /usr/local/go/src/github.com/thoas/picfit/bin/picfit -c /config/config.json
