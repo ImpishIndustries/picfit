@@ -4,4 +4,8 @@ services:
   picfit:
     image: impishindustries/picfit
     ports:
-      - 3001:3001      
+      - 3001:3001
+    volumes:
+      - /cache
+      - /config
+      - /image-store      

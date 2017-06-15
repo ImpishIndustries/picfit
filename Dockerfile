@@ -33,6 +33,4 @@ RUN git clone https://github.com/thoas/picfit.git
 WORKDIR /usr/local/go/src/github.com/thoas/picfit
 RUN make build
 
-COPY config.json /tmp/config.json
-
-CMD /usr/local/go/src/github.com/thoas/picfit/bin/picfit -c /tmp/config.json
+CMD /usr/local/go/src/github.com/thoas/picfit/bin/picfit -c /config/config.json
