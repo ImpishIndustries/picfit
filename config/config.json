@@ -3,7 +3,7 @@
   "storage": {
     "src": {
       "type": "fs",
-      "location": "/tmp"
+      "location": "/image-store"
     }
   },
   "kvstore": {

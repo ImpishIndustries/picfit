@@ -1,0 +1,9 @@
+/image-store/*.jpg
+/image-store/*.JPG
+/image-store/*.gif
+/image-store/*.GIF
+/image-store/*.png
+/image-store/*.PNG
+/image-store/*.bmp
+/image-store/*.BMP
+/cache
